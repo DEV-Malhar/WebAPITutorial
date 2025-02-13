@@ -1,0 +1,6 @@
+@_01ASPCoreWebAPI1_HostAddress = http://localhost:5083
+
+GET {{_01ASPCoreWebAPI1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
