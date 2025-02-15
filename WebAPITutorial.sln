@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01ASPCoreWebAPI1", "01ASPCoreWebAPI1\01ASPCoreWebAPI1.csproj", "{4AF38BD4-F023-419A-8B69-99D5B225F77B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC1A932A-557D-407C-95DF-46FDF3202C94}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Notes.md = Notes.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02ASPCoreWebAPICRUD", "02ASPCoreWebAPICRUD\02ASPCoreWebAPICRUD.csproj", "{BB654D5C-321E-4B82-85E4-25E211B228D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,10 @@ Global
 		{4AF38BD4-F023-419A-8B69-99D5B225F77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AF38BD4-F023-419A-8B69-99D5B225F77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF38BD4-F023-419A-8B69-99D5B225F77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB654D5C-321E-4B82-85E4-25E211B228D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB654D5C-321E-4B82-85E4-25E211B228D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB654D5C-321E-4B82-85E4-25E211B228D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB654D5C-321E-4B82-85E4-25E211B228D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
